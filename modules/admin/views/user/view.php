@@ -36,5 +36,5 @@ $this->params['breadcrumbs'][] = $this->title;
             'image',
         ],
     ]) ?>
-
+    <?= Html::a('Set Image', ['set-image', 'id' => $model->id], ['class' => 'btn btn-default']) ?>
 </div>
